@@ -26,7 +26,7 @@ ClubSuite Finance bietet eine vollständige Finanzverwaltung für Vereine:
 ### Manuelle Installation
 ```bash
 cd /path/to/nextcloud/apps
-git clone https://github.com/clubsuite/clubsuite-finance.git
+git clone https://github.com/ClubSuite-for-Nextcloud/clubsuite-finance.git
 php occ app:enable clubsuite-finance
 ```
 
@@ -50,7 +50,7 @@ AGPL v3 – Siehe [LICENSE](LICENSE)
 
 ## 🐛 Bugs & Feature Requests
 
-[GitHub Issues](https://github.com/clubsuite/clubsuite-finance/issues)
+[GitHub Issues](https://github.com/ClubSuite-for-Nextcloud/clubsuite-finance/issues)
 
 ---
 
