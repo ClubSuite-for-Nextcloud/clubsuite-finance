@@ -1,0 +1,18 @@
+{
+  "translations": {
+    "app": "Finanzen",
+    "transactions": "Transactions",
+    "categories": "Categories",
+    "reports": "Reports",
+    "annual_report": "Annual Report",
+    "Permission denied": "Permission denied",
+    "Finance": "Finance",
+    "Deleted user": "Deleted user",
+    "Error listing accounts": "Error listing accounts",
+    "Created account": "Created account",
+    "Updated account": "Updated account",
+    "Deleted account": "Deleted account",
+    "Account not found": "Account not found"
+  },
+  "pluralForm": "nplurals=2; plural=(n != 1);"
+}

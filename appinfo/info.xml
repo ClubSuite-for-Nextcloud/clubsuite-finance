@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>clubsuite-finance</id>
+    <name>ClubSuite Finance</name>
+    <summary>Finanzverwaltung und Kassenbuch</summary>
+    <description><![CDATA[# ClubSuite Finance
+
+Einfache Buchhaltung speziell für Vereine.
+
+## Features
+- **Konten**: Verwaltung von Bankkonten und Kassen
+- **Kategorien**: Einnahmen- und Ausgabenkategorien
+- **Transaktionen**: Buchungen mit Mitgliederzuordnung
+- **Berichte**: Jahresübersicht, Kassenberichte
+- **Export**: CSV und PDF Export
+
+## Voraussetzung
+Erfordert ClubSuite Core für Mitglieder-Integration.]]></description>
+    <version>1.2.0</version>
+    <licence>agpl</licence>
+    <author>Stefan Schulz</author>
+    <namespace>ClubSuiteFinance</namespace>
+    <category>organization</category>
+    <website>https://github.com/clubsuite/clubsuite-finance</website>
+    <bugs>https://github.com/clubsuite/clubsuite-finance/issues</bugs>
+    <repository type="git">https://github.com/clubsuite/clubsuite-finance.git</repository>
+    <screenshot>https://raw.githubusercontent.com/clubsuite/clubsuite-finance/main/screenshots/transactions.png</screenshot>
+    <screenshot>https://raw.githubusercontent.com/clubsuite/clubsuite-finance/main/screenshots/reports.png</screenshot>
+    <dependencies>
+        <nextcloud min-version="28" max-version="32" />
+        <php min-version="8.1" max-version="8.3" />
+    </dependencies>
+    <navigations>
+        <navigation>
+            <id>clubsuite-finance</id>
+            <name>Finanzen</name>
+            <route>clubsuite-finance.page.index</route>
+            <icon>app.svg</icon>
+            <order>10</order>
+        </navigation>
+    </navigations>
+</info>

@@ -1,0 +1,12 @@
+{
+    "translations": {
+        "Permission denied": "Zugriff verweigert",
+        "Finance": "Finanzen",
+        "Deleted user": "Gelöschter Benutzer",
+        "Error listing accounts": "Fehler beim Auflisten der Konten",
+        "Created account": "Konto erstellt",
+        "Updated account": "Konto aktualisiert",
+        "Deleted account": "Konto gelöscht",
+        "Account not found": "Konto nicht gefunden"
+    }
+}
