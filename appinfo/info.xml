@@ -16,7 +16,7 @@ Einfache Buchhaltung speziell für Vereine.
 
 ## Voraussetzung
 Erfordert ClubSuite Core für Mitglieder-Integration.]]></description>
-    <version>1.2.0</version>
+    <version>1.3.0</version>
     <licence>agpl</licence>
     <author>Stefan Schulz</author>
     <namespace>ClubSuiteFinance</namespace>
@@ -27,7 +27,7 @@ Erfordert ClubSuite Core für Mitglieder-Integration.]]></description>
     <screenshot>https://raw.githubusercontent.com/ClubSuite-for-Nextcloud/clubsuite-finance/main/screenshots/transactions.png</screenshot>
     <screenshot>https://raw.githubusercontent.com/ClubSuite-for-Nextcloud/clubsuite-finance/main/screenshots/reports.png</screenshot>
     <dependencies>
-        <nextcloud min-version="28" max-version="32" />
+        <nextcloud min-version="28" max-version="33" />
         <php min-version="8.1" max-version="8.3" />
     </dependencies>
     <navigations>
